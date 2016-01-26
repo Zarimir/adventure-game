@@ -60,9 +60,9 @@ beast_min = 0
 beast_max = 0
 
 weapon = ""
-weapon_type = "dagger"
-weapon_durability = 2
-weapon_damage = 3
+weapon_type = ""
+weapon_durability = 0
+weapon_damage = 0
 sword_amplifier = 0
 
 # Player health
