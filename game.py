@@ -35,7 +35,7 @@ bonus_list = ['b', 'h', 'w']
 axes = ['cleaving axe', 'hatchet', 'tomahawk', 'long-bearded axe']
 maces = ['driftwood club', 'spiked club', 'stone hammer', 'war hammer', 'bladed mace', 'rock breaker', 'flanged mace', 'behemoth mace']
 ranged_weapons = ['gun', 'pistol', 'rifle', 'bow', 'crossbow', 'shortbow', 'longbow', 'mechanical bow']
-daggers = ['qama', 'kris', 'tanto', 'kukri', 'khanjali', 'katar', 'balisong', 'machete']
+daggers = ['qama', 'kris', 'stabby-stabby', 'tanto', 'kukri', 'khanjali', 'katar', 'balisong', 'machete']
 swords = ['celtic sword', 'gladius', 'spatha', 'longsword', 'an arming sword', 'curtana', 'viking sword', 'swiss sword', 'cutlass', 'smallsword', 'sabre', 'hunting sword', 'balisword']
 weapon_types_dict = {'axe' : axes, 'mace' : maces, 'ranged weapon' : ranged_weapons, 'dagger' : daggers, 'sword' : swords}
 weapon_types = ['axe', 'mace', 'ranged weapon', 'dagger', 'sword']
@@ -52,14 +52,14 @@ beast_types = ['birds of prey', 'felines', 'canines', 'ungulates', 'primates']
 
 
 # Player super spells
-my_bonus_list = {'b' : 1, 'h' : 1, 'w' : 10}
+my_bonus_list = {'b' : 1, 'h' : 1, 'w' : 1}
 beast = ""
 beast_type = ""
 beast_health = 0
 beast_min = 0
 beast_max = 0
 
-weapon = "stabby-stabby"
+weapon = ""
 weapon_type = "dagger"
 weapon_durability = 2
 weapon_damage = 3
@@ -489,3 +489,4 @@ while True:
 
 # Super heal + heal bug
 # Summon beast is useless while you have a beast
+# Bosses don't have enough health
