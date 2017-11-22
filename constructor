@@ -1,0 +1,165 @@
+{
+  "weapon" : {
+    "location" : "elements/weapons/",
+    "axe" : {
+	  "location" : "axes",
+	  "effect" : "sweep",
+	  "positions" : ["main-hand", "off-hand", "one-hand", "two-hand"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"mace" : {
+	  "location" : "maces",
+	  "effect" : "smash",
+	  "positions" : ["main-hand", "off-hand", "one-hand", "two-hand"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"ranged weapon" : {
+	  "location" : "ranged_weapons",
+	  "effect" : "long shot",
+	  "positions" : ["main-hand", "off-hand", "one-hand", "two-hand"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"dagger" : {
+	  "location" : "daggers",
+	  "effect" : "stabbing rush",
+	  "positions" : ["main-hand", "off-hand", "one-hand", "two-hand"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"sword" : {
+	  "location" : "swords",
+	  "effect" : "execute",
+	  "positions" : ["main-hand", "off-hand", "one-hand", "two-hand"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	}
+  },
+  "armour" : {
+    "location" : "elements/armour/",
+	"head" : {
+	  "location" : "head",
+	  "effect" : "stabbing rush",
+	  "positions" : ["head"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"eyes" : {
+	  "location" : "eyes",
+	  "effect" : "stabbing rush",
+	  "positions" : ["eyes"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"shoulders" : {
+	  "location" : "shoulders",
+	  "effect" : "stabbing rush",
+	  "positions" : ["shoulders"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"wrists" : {
+	  "location" : "wrists",
+	  "effect" : "",
+	  "positions" : ["wrists"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"hands" : {
+	  "location" : "hands",
+	  "effect" : "",
+	  "positions" : ["hands"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"back" : {
+	  "location" : "back",
+	  "effect" : "",
+	  "positions" : ["back"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"chest" : {
+	  "location" : "chest",
+	  "effect" : "",
+	  "positions" : ["chest"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"waist" : {
+	  "location" : "waist",
+	  "effect" : "",
+	  "positions" : ["waist"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"legs" : {
+	  "location" : "legs",
+	  "effect" : "",
+	  "positions" : ["legs"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	},
+	"feet" : {
+	  "location" : "feet",
+	  "effect" : "",
+	  "positions" : ["feet"],
+	  "durability" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+  	}
+  },
+  "artefact" : {
+    "location" : "elements/artefacts/",
+    "key" : {
+	  "location" : "key",
+	  "effect" : "unlock",
+	  "cooldown" : {
+	    "min" : 15,
+		"max" : 30
+	  }
+	}
+  },
+  "potion" : {
+    "location" : "elements/potions/",
+    "boost" : {
+	  "location" : "boost",
+	  "effect" : "increase stats",
+	  "quantity" : {
+	    "min" : 3,
+		"max" : 7
+	  }
+	}
+  }
+}
